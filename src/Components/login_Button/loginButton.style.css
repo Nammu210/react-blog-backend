@@ -1,0 +1,132 @@
+.loginBut {
+    display: inline-block;
+    border-radius: 7px;
+    border: none;
+    background: blue;
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    font-size: 15px;
+  
+    width: 8em;
+    padding: 0.5em 1em;
+    transition: all 0.4s;
+    cursor: pointer;
+   }
+   
+   .loginBut span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+   }
+   
+   .loginBut span:after {
+    content: '/ Signin';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.7s;
+   }
+   
+   .loginBut:hover span {
+    padding-right: 3.55em;
+   }
+   
+   .loginBut:hover span:after {
+    opacity: 4;
+    right: 0;
+   }
+
+   .SignupButn {
+    background:blue;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.4rem;
+    margin-left: 1rem;
+    font-weight: 600;
+    color: #fff;
+    border: 2px solid #4c83ee;
+ 
+}
+
+.SignupButn:hover{
+    color: #265bc2;
+   
+    background-color: transparent;
+   
+    border-color: #265bc2;
+}
+
+.LoginButn {
+    background: rgb(0, 217, 255);
+    padding: 0.4rem 1rem;
+    border-radius: 0.4rem;
+    margin-left: 1rem;
+    font-weight: 600;
+   
+    color: #fff;
+    border: 2px solid #4c83ee;
+}
+
+.LoginButn:hover{
+    color: #265bc2;
+ 
+    background-color: transparent;
+ 
+    border-color: #265bc2;
+}
+
+.LogoutBtn {
+    background: #265bc2;
+    padding: 0.4rem 1rem;
+    border-radius: 0.4rem;
+    margin-left: 1rem;
+    font-weight: 600;
+  
+    color: #fff;
+    border: 2px solid #4c83ee;
+}
+
+.LogoutBtn:hover{
+    color: #265bc2;
+ 
+    background-color: transparent;
+    box-sizing: border-box;
+    border-color: #265bc2;
+}
+
+.userName {
+
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.userName span{
+    color: darkslategrey;
+    font-weight: 700;
+    font-size: 18px;
+    display: inline-block;
+  
+}
+
+.userName span:hover{
+    max-width: none;
+  white-space: normal;
+}
+
+@media  (min-width:600px) and (max-width:1000px){
+    .userName {
+        display: flex;
+        width: 54vw;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 600px){
+.userName {
+    display:none;
+}
+}

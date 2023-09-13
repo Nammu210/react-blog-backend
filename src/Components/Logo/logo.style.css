@@ -1,0 +1,11 @@
+.point{
+    text-align: center;
+    padding-top: 2rem;
+  }
+  
+  .horiz{
+      writing-mode: vertical-lr;
+      text-orientation: mixed;
+      transform: rotate(180deg);
+      font-size: initial;
+  }

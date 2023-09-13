@@ -1,0 +1,8 @@
+.nameSticky{
+    background-color: azure;
+    width: 6rem;
+    height: 2rem;
+    position: fixed;
+    bottom: 5rem;
+    right: 4rem;
+}

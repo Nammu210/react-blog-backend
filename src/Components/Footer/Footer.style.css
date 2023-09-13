@@ -1,0 +1,184 @@
+
+.Mfooter {
+    display: flex;
+ 
+    background-color: #111111;
+    color: #ffffff;
+    justify-content: center;
+  
+    min-height: 10rem;
+}
+
+.refernce {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.theFWidth {
+    width: 90%;
+}
+
+.Fcont{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   
+    height: 100%;
+}
+
+.FSc {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.center{
+    padding-top: 1rem;
+}
+
+.Fcontact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+.theFProp {
+    display: flex;
+}
+
+
+.mCon {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.fmsc {
+    
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.lastFText {
+    font-size: 15px;
+    font-style: normal;
+}
+
+pre{
+    font-family: inherit;
+}
+
+.Flinks{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media  (min-width:600px) and (max-width:1000px){
+
+
+    .Mfooter{
+       
+        font-size: 14px;
+        align-items: center;
+        justify-content: center;
+    }
+    .Fcontact {
+       padding-top: 2.5rem;
+       
+    }
+
+    .Fcont {    
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+    }
+
+    .theFWidth {
+        width: 95%;
+    }
+
+
+
+
+
+
+}
+
+
+@media (max-width:600px){
+
+    .fmsc{
+        height: auto;
+        line-height: 14px;
+        align-content: center;
+    } 
+    .Fcont {
+        display: block;
+        align-content: center;
+      }
+
+
+
+.FSc {
+    position: relative;
+    left: 1rem;
+    width: 80%;
+    gap: 3px;
+    font-size: 15px;
+  }
+  .footerLogo{
+    margin-top: -0.5rem;
+  }
+  
+  .mCon {
+    gap: 6px;
+  }
+  
+  
+  .fmsc {
+    gap: 10px;
+    line-height: 20px;
+  }
+  
+  
+  .Fcontact {
+    position: relative;
+      left: 1rem;
+      width: 80%;
+      font-size: 14px;
+      gap: 1px;
+      padding-top: 1rem;
+  }
+  
+  .lastFText {
+    font-size: 15px;
+  }
+  
+  .refernce {
+      position: relative;
+      left: 1rem;
+      width: 80%;
+      font-size: 14px;
+      gap: 1px;
+      align-content: center;
+  }
+  
+
+
+.theFWidth {
+    width: 95%;
+    justify-content: center;
+}
+
+
+
+}
