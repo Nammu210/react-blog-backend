@@ -387,8 +387,23 @@ width: 100%;
   align-items: center;
   justify-content: center;
   border: 2px solid;
-  height: 500px;
+  height: 650px;
   width: 100%;
+  margin-top: 100px;
+ 
+ 
+}
+
+.Ads{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  height: 480px;
+  width: 100%;
+  margin-top: -2px;
+ 
  
 }
 

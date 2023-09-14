@@ -18,12 +18,12 @@
 .SignupForm {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 15px;
     
     background-color: #b1cee7;
-    width: 25%;
-    min-width: 21rem;
-    height:375px;
+    width: 20%;
+    min-width: 17rem;
+    height:300px;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
@@ -56,19 +56,21 @@
   }
 
   .signupText{
-    font-size: 22px;
+    font-size: 15px;
     font-family: system-ui;
    
   }
 
   .signupErrText{
     position: absolute;
-    bottom: 6rem;
+    bottom: 8rem;
     color: red;
+    font-size: 15px;
   }
 
   .signupEmailErr {
     position: absolute;
     bottom: 9.3rem;
     color: red;
+   
 }
